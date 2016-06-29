@@ -1,2 +1,2 @@
 # fulcrum-styleguide
-Style guide for Michigan Publishing's Fulcrum informational website
+Style guide for Michigan Publishing's publishing platform, [Fulcrum](http://fulcrum.org).
