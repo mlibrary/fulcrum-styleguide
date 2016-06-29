@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <title>fulcrum // style guide</title>
+    <meta name="description" content="Style guide for fulcrum.org, the informational site for a new publishing platform">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round:400,400italic" rel="stylesheet" type="text/css">
+    <script src="//use.typekit.net/fob1mqk.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+    <!-- Import jQuery before CSS -->
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+
+    <!-- Import CSS -->
+    <link type="text/css" rel="stylesheet" href="/css/custom.css">
+
+    <!-- Google Analytics - we do not share our data with Google -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-77847516-2', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </head>
+  <body>
+    <div class="nav-container">
+      <div class="container">
+        <div class="columns">
+          <nav class="main-nav column">
+
+            <a href="#" class="nav-logo">
+              <span class="u-screenreader">fulcrum</span>
+
+              <!-- SVG logo with png fallback -->
+              <svg width="165" height="45" viewBox="0 0 165 45"><defs><linearGradient x1="-6.506%" y1="9.852%" x2="142.586%" y2="73.359%" id="a"><stop stop-color="#00AFEC" offset="0%"/><stop stop-color="#002C63" offset="100%"/></linearGradient></defs><g fill="none"><path d="M0 10h25v-10h-25v10zm13 6c0 3.314 2.686 6 6 6s6-2.686 6-6-2.686-6-6-6-6 2.686-6 6zm-13 22c0 3.314 2.686 6 6 6s6-2.686 6-6-2.686-6-6-6-6 2.686-6 6zm0-6h25v-10h-25v10z" id="mark" fill="url(#a)"/><path d="M69 44h6v-30h-6v30zm19.485-4.854c-3.332 0-5.461-2.697-5.461-6.048v-.082c0-3.229 2.168-5.966 5.221-5.966 2.17 0 3.535.939 4.9 2.411l3.735-4.088c-2.008-2.288-4.539-3.677-8.594-3.677-6.588 0-11.285 5.149-11.285 11.402v.082c0 6.253 4.738 11.32 11.205 11.32 4.297 0 6.706-1.675 8.795-4.005l-3.574-3.679c-1.486 1.431-2.892 2.329-4.941 2.329zm35.515-4.84c.025 2.942-1.43 4.454-3.71 4.454-2.279 0-3.617-1.512-3.29-4.454v-12.306h-5.354c-3.634 0-6.452 1.477-7.646 4.5v-4.5h-6v21.991h6v-8.091c-.024-5.231 2.729-8.023 7-8.023v8.391c-.302 5.026 2.332 8.132 6.852 8.132 3.028 0 4.797-1.675 6.148-3.515v3.106h6v-21.991h-6v12.306zm27.035-9.136c-1.096-2.208-3.169-3.474-5.907-3.474-3.013 0-4.813 1.675-6.128 3.514v-3.21h-6v22.009h6v-12.219c-.053-2.943 1.315-4.454 3.546-4.454 2.23 0 3.482 1.511 3.454 4.454v12.219h6v-12.219c-.027-2.943 1.343-4.454 3.573-4.454s3.481 1.511 3.427 4.454v12.219h6v-14.262c0-5.272-2.66-8.051-7.08-8.051-2.856 0-5.047 1.226-6.885 3.474zm-91.035 9.154c.043 2.942-1.407 4.454-3.681 4.454-2.272 0-3.319-1.778-3.319-4.454v-12.324h-11c-.099-1.616.7-2.969 2.057-3.169 1.104-.163 1.881-.001 2.943.532v-5.149c-1.336-.368-2.59-.614-4.472-.614-2.116 0-3.622.645-4.719 1.79-1.098 1.145-1.786 2.829-1.786 5.239v1.389h-3.023v4.982h3v17h5.979l.021-17h5v9.286c-.244 5.026 2.383 8.132 6.889 8.132 3.019 0 4.782-1.675 6.111-3.515v3.106h6v-21.991h-6v12.306z" id="fulcrum" fill="#002C63"/><path d="M0 10h25v-10h-25v10zm13 6c0 3.314 2.686 6 6 6s6-2.686 6-6-2.686-6-6-6-6 2.686-6 6zm-13 22c0 3.314 2.686 6 6 6s6-2.686 6-6-2.686-6-6-6-6 2.686-6 6zm0-6h25v-10h-25v10z" fill="url(#a)"/><path d="M69 44h6v-30h-6v30zm19.485-4.854c-3.332 0-5.461-2.697-5.461-6.048v-.082c0-3.229 2.168-5.966 5.221-5.966 2.17 0 3.535.939 4.9 2.411l3.735-4.088c-2.008-2.288-4.539-3.677-8.594-3.677-6.588 0-11.285 5.149-11.285 11.402v.082c0 6.253 4.738 11.32 11.205 11.32 4.297 0 6.706-1.675 8.795-4.005l-3.574-3.679c-1.486 1.431-2.892 2.329-4.941 2.329zm35.515-4.84c.025 2.942-1.43 4.454-3.71 4.454-2.279 0-3.617-1.512-3.29-4.454v-12.306h-5.354c-3.634 0-6.452 1.477-7.646 4.5v-4.5h-6v21.991h6v-8.091c-.024-5.231 2.729-8.023 7-8.023v8.391c-.302 5.026 2.332 8.132 6.852 8.132 3.028 0 4.797-1.675 6.148-3.515v3.106h6v-21.991h-6v12.306zm27.035-9.136c-1.096-2.208-3.169-3.474-5.907-3.474-3.013 0-4.813 1.675-6.128 3.514v-3.21h-6v22.009h6v-12.219c-.053-2.943 1.315-4.454 3.546-4.454 2.23 0 3.482 1.511 3.454 4.454v12.219h6v-12.219c-.027-2.943 1.343-4.454 3.573-4.454s3.481 1.511 3.427 4.454v12.219h6v-14.262c0-5.272-2.66-8.051-7.08-8.051-2.856 0-5.047 1.226-6.885 3.474zm-91.035 9.154c.043 2.942-1.407 4.454-3.681 4.454-2.272 0-3.319-1.778-3.319-4.454v-12.324h-11c-.099-1.616.7-2.969 2.057-3.169 1.104-.163 1.881-.001 2.943.532v-5.149c-1.336-.368-2.59-.614-4.472-.614-2.116 0-3.622.645-4.719 1.79-1.098 1.145-1.786 2.829-1.786 5.239v1.389h-3.023v4.982h3v17h5.979l.021-17h5v9.286c-.244 5.026 2.383 8.132 6.889 8.132 3.019 0 4.782-1.675 6.111-3.515v3.106h6v-21.991h-6v12.306z" fill="#002C63"/></g>
+
+              <!-- PNG fallback -- be sure to relink -->
+              <image src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/538033/fulcrum-logo.png" xlink:href=""></svg>
+
+            </a>
+
+            <ul class="main-nav-list milli">
+              <li class="main-nav-item">
+                <a href="#" class="main-nav-link">Nav link 1</a>
+              </li>
+              <li class="main-nav-item">
+                <a href="#" class="main-nav-link">Nav link 2</a>
+              </li>
+              <li class="main-nav-item">
+                <a href="#" class="main-nav-link">Nav link 3</a>
+              </li>
+            </ul>
+
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <main class="main container">
+      <div class="columns section">
+        <article class="content column g-8">
+          <h1>h1 heading .alpha</h1>
+
+          <h2>h2 heading .beta</h2>
+
+          <h3>h3 heading .gamma</h3>
+
+          <h4>h4-6 heading .delta</h4>
+
+          <p class="milli"><strong>Body .milli</strong>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+          <p><strong>Body .delta (default)</strong>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+          <p class="gamma"><strong>Body .gamma</strong>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+          <p><a href="#">This is a link</a></p>
+
+          <p><a href="#" class="button">Button</a> <a class="button is-disabled" disabled>Disabled button</a></p>
+
+          <p><a href="#" class="button--lg">Large button</a></p>
+
+          <p><a href="#" class="button--sm">Small button</a></p>
+
+          <form class="form">
+
+            <div class="columns">
+
+              <div class="column g-6">
+                <label for="form-text">Text input 1</label>
+                <input name="text" type="text" id="form-text">
+              </div>
+
+              <div class="column g-6">
+                <label for="form-text2">Text input 2</label>
+                <input name="text2" type="text" id="form-text2">
+              </div>
+
+              <div class="column">
+                <label for="form-textarea">Textarea</label>
+                <textarea name="textarea" id="form-textarea" placeholder="placeholder text"></textarea>
+              </div>
+
+              <div class="column">
+                <a href="#" class="button">Submit</a>
+              </div>
+
+            </div>
+
+          </form>
+
+        </article>
+
+        <aside class="sidebar column g-4">
+
+          <div class="columns u-margins_off">
+            <div class="column g-6">
+              <h2 class="delta">Brand color</h2>
+
+              <div class="swatch brand-color">
+                <p class="swatch-label--light milli">$brand-color</p>
+              </div>
+            </div>
+
+            <div class="column g-6">
+              <h2 class="delta">Accent color</h2>
+
+              <div class="swatch accent-color">
+                <p class="swatch-label milli">$accent-color</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="columns u-margins_off">
+
+            <div class="column g-6">
+              <h2 class="delta">Neutrals</h2>
+
+              <div class="swatch white">
+                <p class="swatch-label milli">$white</p>
+              </div>
+
+              <div class="swatch light-1">
+                <p class="swatch-label milli">$light-1</p>
+              </div>
+
+              <div class="swatch light-2">
+                <p class="swatch-label milli">$light-2</p>
+              </div>
+
+              <div class="swatch gray">
+                <p class="swatch-label--light milli">$gray</p>
+              </div>
+
+              <div class="swatch dark-1">
+                <p class="swatch-label--light milli">$dark-1</p>
+              </div>
+
+              <div class="swatch dark-2">
+                <p class="swatch-label--light milli">$dark-2</p>
+              </div>
+
+              <div class="swatch black">
+                <p class="swatch-label--light milli">$black</p>
+              </div>
+
+            </div>
+
+            <div class="column g-6">
+              <h2 class="delta">UI colors</h2>
+
+              <div class="swatch ui-success">
+                <p class="swatch-label milli">$ui-success</p>
+              </div>
+
+              <div class="swatch ui-caution">
+                <p class="swatch-label milli">$ui-caution</p>
+              </div>
+
+              <div class="swatch ui-warning">
+                <p class="swatch-label milli">$ui-warning</p>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+  </body>
+</html>
